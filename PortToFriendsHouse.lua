@@ -2766,6 +2766,7 @@ SLASH_COMMANDS[PortToFriend.slashCmd] = function(param)
 	param = zo_strtrim(param)
 	local cmd = ""
 	cmd, param = PortToFriend.ParseCmd(cmd, param)
+	local cmd = string.lower(cmd)
 	if cmd == "port" then
 		local lastWordIndex = param:match(".* ()")
 		if lastWordIndex ~= nil then
