@@ -2762,7 +2762,7 @@ function PortToFriend.JumpToDefaultHouse(player)
 end
 
 SLASH_COMMANDS[PortToFriend.slashCmd] = function(param)
-	d(string.format("%s %s", PortToFriend.slashCmd, param))
+	--d(string.format("%s %s", PortToFriend.slashCmd, param))
 	param = zo_strtrim(param)
 	local cmd = ""
 	cmd, param = PortToFriend.ParseCmd(cmd, param)
