@@ -2727,9 +2727,8 @@ function PortToFriend.CreateGuildAndFriendList()
     end
 end
 
-function PortToFriend.ParseCmd(cmd, param)
+function PortToFriend.ParseCmd(param)
 	param = zo_strtrim(param)
-	cmd = zo_strtrim(cmd)
 	
 	local cmdIndex = string.find(param, " ")
 	if cmdIndex  ~= nil then
@@ -2763,10 +2762,7 @@ end
 
 SLASH_COMMANDS[PortToFriend.slashCmd] = function(param)
 	--d(string.format("%s %s", PortToFriend.slashCmd, param))
-	param = zo_strtrim(param)
-	local cmd = ""
-	cmd, param = PortToFriend.ParseCmd(cmd, param)
-	local cmd = string.lower(cmd)
+	cmd, param = PortToFriend.ParseCmd(param)
 	if cmd == "port" then
 		local lastWordIndex = param:match(".* ()")
 		if lastWordIndex ~= nil then
