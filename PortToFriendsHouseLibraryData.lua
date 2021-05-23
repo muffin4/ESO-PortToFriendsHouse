@@ -588,6 +588,30 @@ function PortToFriendData.CreateEuDataList()
 		description = "Eldenwurz Baumhaus/Elden Root Treehouse\r\n\r\nBuild in a second floor.",
 		category = {PortToFriend.constants.FILTER_ID_HIGHLIGHT}
 	}
+	list[#list + 1] = {
+		name = "@mae_glunenstein",
+		houseId = 64,
+		description = "Argonische Wohlfühloase",
+		category = {PortToFriend.constants.FILTER_ID_HIGHLIGHT}
+	}
+	list[#list + 1] = {
+		name = "@mae_glunenstein",
+		houseId = 71,
+		description = "Niederländisches Dorf",
+		category = {PortToFriend.constants.FILTER_ID_HIGHLIGHT}
+	}
+	list[#list + 1] = {
+		name = "@mae_glunenstein",
+		houseId = 70,
+		description = "Dekadentes Katzenhaus ganz ohne Mäuse",
+		category = {PortToFriend.constants.FILTER_ID_HIGHLIGHT}
+	}
+	list[#list + 1] = {
+		name = "@mae_glunenstein",
+		houseId = 61,
+		description = "Poolhaus in Stein gemeißelt",
+		category = {PortToFriend.constants.FILTER_ID_HIGHLIGHT}
+	}
 end
 
 function PortToFriendData.CreateNaDataList()

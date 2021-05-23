@@ -1,7 +1,7 @@
 ## Title: PortToFriendsHouse
 ## APIVersion: 100034
-## AddOnVersion: 35
-## Version: 2.2.3
+## AddOnVersion: 36
+## Version: 2.2.4
 ## SavedVariables: PortToFriendsHouseVars
 ## Author: @s0rdrak (PC / EU)
 ## Description: This addon lets you port to a specific house. Thanks to: @Neltje, @Graham82
